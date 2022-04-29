@@ -2,7 +2,7 @@
 
 ## Planned Design
 ![MVP](https://user-images.githubusercontent.com/165331/166068447-452c84a6-aa46-443b-8cef-e0ccc791fa44.png)
-More information can be found in ![ARCHITECTURE](ARCHITECTURE.md).
+More information can be found in [ARCHITECTURE.md].
 
 *Since this project is still in early development, the below is very much subject to change...*
 
