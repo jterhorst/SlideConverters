@@ -9,4 +9,4 @@ A shared C++ library for converting between documents and slide formats for chur
 
 ## Planned Design
 ![MVP](https://user-images.githubusercontent.com/165331/166068447-452c84a6-aa46-443b-8cef-e0ccc791fa44.png)
-More information can be found in [ARCHITECTURE.md].
+More information can be found in [ARCHITECTURE.md](ARCHITECTURE.md).
