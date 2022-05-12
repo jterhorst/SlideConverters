@@ -4,21 +4,21 @@
 
 namespace SlideConverters {
 
-  /**  Language codes to be used with the SlideConverters class */
+  /**  Language codes to be used with the Converter class */
   enum class LanguageCode { EN, DE, ES, FR };
 
   /**
    * @brief A class for saying hello in multiple languages
    */
-  class SlideConverters {
+  class Converter {
     std::string name;
 
   public:
     /**
-     * @brief Creates a new SlideConverters
+     * @brief Creates a new Converter
      * @param name the name to greet
      */
-    SlideConverters(std::string name);
+    Converter(std::string name);
 
     /**
      * @brief Creates a localized string containing the greeting

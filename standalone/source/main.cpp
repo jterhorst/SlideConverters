@@ -46,7 +46,7 @@ auto main(int argc, char** argv) -> int {
     return 1;
   }
 
-  SlideConverters::SlideConverters converter(name);
+  SlideConverters::Converter converter(name);
   std::cout << converter.convert(langIt->second) << std::endl;
 
   return 0;

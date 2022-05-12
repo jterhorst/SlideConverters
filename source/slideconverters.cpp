@@ -3,9 +3,9 @@
 
 using namespace SlideConverters;
 
-SlideConverters::SlideConverters(std::string _name) : name(std::move(_name)) {}
+SlideConverters::Converter(std::string _name) : name(std::move(_name)) {}
 
-std::string SlideConverters::convert(LanguageCode lang) const {
+std::string Converter::convert(LanguageCode lang) const {
   switch (lang) {
     default:
     case LanguageCode::EN:

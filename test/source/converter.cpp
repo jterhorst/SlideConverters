@@ -7,7 +7,7 @@
 TEST_CASE("SlideConverters") {
   using namespace SlideConverters;
 
-  SlideConverters converter("Tests");
+  Converter converter("Tests");
 
   CHECK(converter.convert(LanguageCode::EN) == "Hello, Tests!");
   CHECK(converter.convert(LanguageCode::DE) == "Hallo Tests!");
