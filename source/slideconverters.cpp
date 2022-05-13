@@ -1,11 +1,11 @@
 #include <fmt/format.h>
-#include <greeter/greeter.h>
+#include <slideconverters/slideconverters.h>
 
-using namespace greeter;
+using namespace slideconverters;
 
-Greeter::Greeter(std::string _name) : name(std::move(_name)) {}
+SlideConverters::SlideConverters(std::string _name) : name(std::move(_name)) {}
 
-std::string Greeter::greet(LanguageCode lang) const {
+std::string SlideConverters::convert(LanguageCode lang) const {
   switch (lang) {
     default:
     case LanguageCode::EN:
