@@ -2,30 +2,30 @@
 
 #include <string>
 
-namespace SlideConverters {
+namespace greeter {
 
-  /**  Language codes to be used with the Converter class */
+  /**  Language codes to be used with the Greeter class */
   enum class LanguageCode { EN, DE, ES, FR };
 
   /**
    * @brief A class for saying hello in multiple languages
    */
-  class Converter {
+  class Greeter {
     std::string name;
 
   public:
     /**
-     * @brief Creates a new Converter
+     * @brief Creates a new greeter
      * @param name the name to greet
      */
-    Converter(std::string name);
+    Greeter(std::string name);
 
     /**
      * @brief Creates a localized string containing the greeting
      * @param lang the language to greet in
      * @return a string containing the greeting
      */
-    std::string convert(LanguageCode lang = LanguageCode::EN) const;
+    std::string greet(LanguageCode lang = LanguageCode::EN) const;
   };
 
-}  // namespace SlideConverters
+}  // namespace greeter
