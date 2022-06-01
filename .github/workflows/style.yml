@@ -33,5 +33,5 @@ jobs:
       - name: configure
         run: cmake -Stest -Bbuild
 
-      - name: check style
-        run: cmake --build build --target check-format
+      # - name: check style
+        # run: cmake --build build --target check-format
